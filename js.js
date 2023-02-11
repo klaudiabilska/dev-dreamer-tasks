@@ -70,12 +70,37 @@ if (user === "guest") {
 
 let myName = 'Klaudia';
 
-if (myName.length > 5) {
+/*if (myName.length > 5) {
     alert("More than 5");
 } else if (myName.length === 5) {
     alert("Exactly 5 letters");
 } else {
     alert("Less then 5 letters");
-}
+} */
 
 // Switch Statement 
+
+let favFood = 'sushi';
+
+switch(favFood) {
+    case 'pizza':
+        console.log(`That's right! ${favFood} is my favourite!`);
+        break;
+        case 'pizza':
+        console.log(`That's right! ${favFood} is my favourite!`);
+        break;
+        case 'food3':
+        console.log(`That's right! ${favFood} is my favourite!`);
+        break;
+        case 'food2':
+        console.log(`That's right! ${favFood} is my favourite!`);
+        break;
+        case 'sushi':
+        console.log(`That's right! ${favFood} is my favourite!`);
+        break;
+        default:
+            console.log("Fav food not found... I'm hungry!");
+}
+
+// The Ternary (Conditional) Operator
+
