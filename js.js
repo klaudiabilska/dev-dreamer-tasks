@@ -48,4 +48,34 @@ console.log(course ?? "Please select a course")
 let courseProfress = 0;
 console.log(courseProfress ?? "Start the cours")
 
-// Control flow - By default our JavaScript code is executed from top to bottom, line by line however we can change this with control flow. Control flow allows our program to make decisions about what code is executed and when
+/* Control flow - By default our JavaScript code is executed from top to bottom, line by line however we can change this with control flow. 
+Control flow allows our program to make decisions about what code is executed and when */
+
+// If else Statements
+
+let num = 10 + 2;
+if (num > 2 && num < 20) {
+    console.log("true");
+} else {
+    console.log("false");
+} // true
+
+let user = 'employee'
+
+if (user === "guest") {
+    console.log('Login denined');
+} else if (user === "employee") {
+    console.log('Succesfully Logged in')
+}
+
+let myName = 'Klaudia';
+
+if (myName.length > 5) {
+    alert("More than 5");
+} else if (myName.length === 5) {
+    alert("Exactly 5 letters");
+} else {
+    alert("Less then 5 letters");
+}
+
+// Switch Statement 
