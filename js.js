@@ -104,3 +104,10 @@ switch(favFood) {
 
 // The Ternary (Conditional) Operator
 
+let message = '';
+let output = message = 1 > 10 ? "Condition is true" : "Contition is false";
+console.log(output)
+
+let time = '12:00';
+let output2 = time < '12:00' ? 'Good morning' : 'Good Evening';
+console.log(output2)
