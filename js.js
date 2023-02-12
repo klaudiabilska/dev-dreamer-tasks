@@ -111,3 +111,50 @@ console.log(output)
 let time = '12:00';
 let output2 = time < '12:00' ? 'Good morning' : 'Good Evening';
 console.log(output2)
+
+// For Loop
+
+let colours = ["pink", "grey", "yellow", "blue", "red"];
+
+for (let taskloop = 0; taskloop < colours.length; taskloop++) {
+    console.log(`${colours[taskloop]} is my fav color!`);
+};
+
+///marcin ksiazka zadania z for loop
+
+
+// While/do while loop
+
+let x = 0;
+while (x <= 100) {
+    console.log(`The speed of the car is ${x} MPH`);
+    x += 10;
+};
+
+let taska = 1;
+let taskb = 10;
+
+do {
+ console.log(taska);
+ taska++;
+} while (taska <= taskb);
+
+///marcin ksiazka zadania z while loop
+let marcin1 = 0;
+while (marcin1 <= 100) {
+    console.log(marcin1)
+    marcin1+=2
+}
+
+let marcin2 = 0;
+while (marcin2 < 100) {
+    console.log(marcin2)
+    marcin2+=7
+}
+
+let marcin3 = 13;
+while (marcin3 < 1000) {
+    console.log(marcin3)
+    marcin3+=13
+}
+
