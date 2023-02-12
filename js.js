@@ -122,6 +122,21 @@ for (let taskloop = 0; taskloop < colours.length; taskloop++) {
 
 ///marcin ksiazka zadania z for loop
 
+for (let marcin4 = 10; marcin4 >= 5; marcin4--) {
+    console.log(marcin4);
+};
+
+console.log("zadanie 2")
+
+for (let marcin5 = 5; marcin5 < 30; marcin5++) {
+    console.log(marcin5);
+}
+
+console.log("zadanie 3")
+
+for (let marcin6 = 20; marcin6 > 0; marcin6-=2) {
+    console.log(marcin6);
+}
 
 // While/do while loop
 
