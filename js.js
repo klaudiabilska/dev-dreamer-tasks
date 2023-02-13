@@ -173,3 +173,21 @@ while (marcin3 < 1000) {
     marcin3+=13
 }
 
+// Arrays
+
+let countries = ["poland", "germany", "japan"];
+countries[3] = "italy";
+console.log(countries)
+
+let kolory = ["pink", "grey", "black", ["white", "brown", "red"]];
+console.log(kolory[3][2])
+
+// Array Methods
+
+let fruits = ["apple", "orange", "banana"];
+
+fruits.unshift("cherry", "pineapple")
+fruits.push("plum", "grapes")
+fruits.splice(3, 1, "lemon")
+fruits.sort()
+console.log(fruits)
