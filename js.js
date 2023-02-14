@@ -191,3 +191,19 @@ fruits.push("plum", "grapes")
 fruits.splice(3, 1, "lemon")
 fruits.sort()
 console.log(fruits)
+
+//Array Iterator Methods
+
+console.log();
+
+
+//marcin forEach
+
+let printAllValues = [1, 2, 3];
+printAllValues.forEach(
+    function(value, index, array) {
+        console.log(`Na pozycji ${index} znajduje się ${value}`);
+    }
+)
+
+
