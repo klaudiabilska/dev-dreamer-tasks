@@ -194,8 +194,26 @@ console.log(fruits)
 
 //Array Iterator Methods
 
-console.log();
+let array1 = ["apple", "banana", "orange"]
+array1.forEach(
+    function(value, index, array) {
+        console.log(value, index);
+    }
+);
 
+array1.map(
+    function(value) {
+        console.log(value.toUpperCase());
+    }
+);
+
+let moreThanThree = array1.some(
+    function(value) {
+        return value.length > 3;
+    }
+);
+
+console.log(moreThanThree);
 
 //marcin forEach
 
