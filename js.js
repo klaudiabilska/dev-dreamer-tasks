@@ -237,3 +237,21 @@ for (element of newSet) {
 }
 
 // Maps and Weak Maps
+
+// Marcin obiekt jako wlasciwiosc
+
+let user0 = {
+    name: "Kuba",
+    surname: "Wedrowicz",
+    address: {
+        country: "Polska",
+        city: "Stary Majdan",
+        postal: "22-120",
+        street: null
+    }
+}
+
+let book = {
+    relaseYear: 2019,
+    title: "Karpie bijem",
+}
