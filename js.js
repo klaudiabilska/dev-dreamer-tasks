@@ -224,4 +224,16 @@ printAllValues.forEach(
     }
 )
 
+// Sets and Weak Sets
 
+let newSet = new Set();
+newSet.add("Scorpion")
+newSet.add("Sub-Zero")
+newSet.add("Reptile")
+newSet.add("Liu Kang")
+
+for (element of newSet) {
+    console.log(element);
+}
+
+// Maps and Weak Maps
