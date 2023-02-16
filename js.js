@@ -255,3 +255,59 @@ let book = {
     relaseYear: 2019,
     title: "Karpie bijem",
 }
+
+// marcin json
+
+const jsonTest = 
+{
+    "name": "Air Max 720",
+    "marka": "Nike",
+    "opis": "poduszka gazowa",
+    "size": "45",
+    "obraz": "https://...",
+    "price": {
+    "cena": "649.99",
+    "waluta": "PLM" 
+    }
+     
+}
+
+//marcin konto bankowe
+
+function makeBankAccount() {
+    return {
+        balance: 0,
+        deposit: function(amount) {
+            this.balance += amount;
+            return this.balance;
+        },
+        withraw: function(amount) {
+            if (amount > this.balance) {
+                amount = this.balance;
+            } 
+            this.balance -= amount;
+            return amount;
+        },
+        currentBalance: function() {
+            return this.balance
+        } 
+    }
+
+}
+
+const account = makeBankAccount();
+console.log(account.currentBalance());
+
+const balance = account.deposit(1000);
+console.log(balance);
+console.log(account.currentBalance());
+
+const withrawed1 = account.withraw(300);
+console.log(withrawed1);
+console.log(account.currentBalance());
+
+const withrawed2 = account.withraw(1500);
+console.log(withrawed2);
+console.log(account.currentBalance());
+
+///
