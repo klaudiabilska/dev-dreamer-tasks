@@ -310,4 +310,13 @@ const withrawed2 = account.withraw(1500);
 console.log(withrawed2);
 console.log(account.currentBalance());
 
-///
+/// Functions
+
+function myName2(){
+    console.log("Klaudia");
+}
+
+myName2();
+myName2();
+
+// Function Expressions
