@@ -320,3 +320,12 @@ myName2();
 myName2();
 
 // Function Expressions
+let colours2 = function() {
+console.log("green");
+console.log("blue");
+console.log("red");
+}
+
+let myColours = colours2;
+
+console.log(myColours);
